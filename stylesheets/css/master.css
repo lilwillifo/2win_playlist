@@ -2,6 +2,10 @@ body {
   font-family: 'Helvetica';
   background-color: #8D99AE;
 }
+
+h1{
+  padding-left: 30px;
+}
 .login {
   height: 22px;
   color: #EF233C;
@@ -34,6 +38,7 @@ body {
 .nav_links p {
   padding: 10px;
 }
+
 .all_cards {
   display: flex;
   flex-direction: row;
@@ -47,7 +52,33 @@ body {
   flex-direction: column;
   margin: 25px;
   padding: 12px;
-  background-color: #05A8AA;
-  font-family: "Helvetica";
-  color: #FFFFFF;
+  background-color: #EDF2F4;
+  color: #2B2D42;
+}
+
+.card h2 {
+  font-size: 16px;
+}
+.card p {
+  font-size: 12px;
+  color: #8D99AE;
+}
+.card a {
+  display: flex;
+  background-color: #8D99AE;
+  color: #2B2D42;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.card h3 {
+  font-size: 14px;
+}
+
+.card h1 {
+  color: #EF233C;
+}
+img {
+  width: 300px;
+  height: 200px;
 }
