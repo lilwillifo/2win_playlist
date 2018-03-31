@@ -2,17 +2,38 @@ body {
   font-family: 'Helvetica';
   background-color: #8D99AE;
 }
+.login {
+  height: 22px;
+  color: #EF233C;
+  background-color: #2B2D42;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .menu {
   height: 46px;
   color: #EDF2F4;
   background-color: #2B2D42;
   align-items: center;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   padding-left: 10px;
   padding-right: 10px;
 }
 
+.nav_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_links p {
+  padding: 10px;
+}
 .all_cards {
   display: flex;
   flex-direction: row;
